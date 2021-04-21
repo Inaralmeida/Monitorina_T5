@@ -1,0 +1,19 @@
+- HTML
+     Algumas tags principais: <p>, <h1>...<h6>, <ul>, <ol>, <li>, <a>, <em>, <strong> e <img>. Por mais que tenha puxado <em> e <strong> no lugar de <i> e <b>, ainda n comentei sobre HTML semântico, provavelmente vamos tocar no assunto semana q vem se sobrar tempo. Se vc quiser falar com eles sobre isso e explicar diferença e qual eles devem preferir sem problema, esse conteúdo acho maneiro se quiser adiantar
+      Atributos de tags
+      Estrutura de uma página HTML5: <!DOCTYPE html>; <html> com o atributo lang; <head> com <meta> (falando só de charset, não peguei viewport nem outros atributos), <title> e <style>, mas na Alura eles também abordam o <link> pra fazer uma conexão com o arquivo e por último o <body>
+
+- VSCode:
+      Alguns atalhos de indentação
+      Abrir e fechar arquivos e pastas
+      Alterar temas
+    OBS: Não falei do Live Server e não pretendo falar, vamos desenvolver sem extensões inicialmente. A ideia é que eles entendam melhor essa primeira parte com arquivos estáticos e consigam rodar em qualquer máquina que tenha um navegador.
+
+- Chrome DevTools:
+     Inspecionar Elemento e editar/deletar Elementos da aba de inspeção
+      Comentei por alto a parte do layout lá do box model tbm pra ver tamanho do Elemento, borda etc
+
+- CSS:
+    Seletores: por tag, classe e id
+     Regras: background-color, color e font-size
+    Box model ficou pra casa, então pode pegar tudo que surgir de margin, border, padding e tamanho. Recomendei um conteúdo sobre box-sizing tbm

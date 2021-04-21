@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto+Mono:ital,wght@1,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+  background-color: #ccc;
+}
+
+header {
+  height: 80px;
+
+  background-color: #ffb200;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 5px 10%;
+
+  font-family: monospace;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+
+}
+
+.logo img {
+  width: 8%;
+}
+.logo h1{
+  font-family: 'Roboto Mono';
+
+}
+nav a{
+  font-size: 1.2rem;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: rgb(71, 65, 65);
+}
+
+
+/* header */
+
+
+.banner {
+  width: 100%;
+  height: 340px;
+
+  background-color: black;
+  color: #ffb200;
+
+  font-family: "Indie Flower", cursive;
+  font-size: 4rem;
+  text-transform: uppercase;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Main */
+
+.exBasico {
+  width: 80%;
+
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.exBasico h2{
+
+    font-size: 3rem;
+    font-family: monospace;
+    line-height: 4rem;
+    margin-top: 25px;
+    
+}
+
+.containerCards {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cardTipoExercicio {
+  width: 30%;
+  height: 350px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  border: 5px solid black;
+  background-color: rgba(75, 71, 71, 0.651);
+}
+
+.cardTipoExercicio img {
+  width: 50%;
+  height: 180px;
+}
+
+.cardTipoExercicio a {
+  border-radius: 5px;
+  width: 30%;
+  height: 30px;
+
+  text-align: center;
+  line-height: 30px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: monospace;
+  color: #ffb200;
+  background-color: black;
+}
+
+.cardTipoExercicio a:hover {
+  background-color: #ffb200;
+  color: black;
+}
+
+
+footer{
+    width: 100%;
+    height: 40px;
+    font-family: monospace;
+    text-align: center;
+    line-height: 40px;
+    background-color: #ffb200;
+    font-weight: bold;
+
+}
+@media screen and (max-width: 426px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header img {
+    width: 60%;
+  }
+
+  .banner {
+    font-size: 1.5rem;
+    padding: 25px;
+    height: 200px;
+  }
+  .exBasico{
+      width: 100%;
+  }
+  .containerCards {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+  }
+
+  .cardTipoExercicio{
+      width: 80%;
+      margin: 15px auto;
+  }
+
+  .cardTipoExercicio img{
+      width: 80%;
+  }
+}

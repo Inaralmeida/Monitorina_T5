@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-size: 22px;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center; /* Alinhei ao centro*/
+}
+.nave ul{  /* Fiz as linhas se quebrarem, aumentei o padding fazendo ele crescer e colorindo "metade" e amarelo*/
+    display: flex;
+    background-color: rgb(247, 243, 26);
+    padding: 20px;
+}
+.logo {
+    font-family:cursive;
+}
+.img-perf{
+    height: 69px;
+    width: 90px;
+    border-radius: 10%;
+    margin-right: 48%;
+}
+.nave a{
+    color: black;
+    transition: color 1s, font-size 1s; /* Isso faz com que demore 1s pra ele responder o hover*/
+}
+.container .logo{ /* Descolei a logo da borda*/
+    color: rgb(247, 243, 26);
+    margin-left: 15px;
+    transition: color 3s, font-size 1s;
+}
+.nave li{
+    margin-left: 20px;
+    list-style: none;
+}
+.container .logo:hover{ /* Fazer somente a Logo aumentar e mudar de cor*/
+    color: turquoise;
+    font-size: 30px;
+}
+.nave ul a:hover{
+    color: white;
+    font-size: 25px;
+}
+.nave ul li::after{
+    margin: 10px;
+    content: "🐶";
+}
+.div-pag{
+    width: 100%;
+}
+.conjunto-imagens ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+.conjunto-imagens{
+    width: 100%;
+}
+.conjunto-imagens .titulo-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+
+}
+.titulo-img p{
+    font-size: 30px;
+    border: 2px solid  rgb(2, 2, 2);
+    border-radius: 30px;
+    background-color: rgb(247, 243, 26);;
+    padding: 10px;
+    margin-top: 5px;
+}
+.conjunto-imagens .imagens{
+    display: flex;
+    border: 2px solid #000000;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    margin: 5px;
+    transition: padding 1s;
+}
+.imagens{
+    width: 300px;
+    height: 500px;
+}
+.conjunto-imagens li{
+    transition: padding 1s;
+}
+.conjunto-imagens li:hover{
+    padding: 10px 5px 10px 10px;
+}
+.pag-final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+}
+.pag-final p{
+    color: rgb(247, 243, 26);
+    font-size: 20px;
+}
+.img-final{
+    height: 150px;
+    width: 150px;
+}
+
+@media screen and (max-width: 426px){  
+     /* Ao encurtar a pagina para o tamanho de 700px, ele ira sumir com a logo e deixar a lista em coluna*/
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+    }
+    .logo{
+        display: none;
+    }
+    .nave ul{
+        display: flex;
+        flex-flow: column wrap;
+        text-align: center;
+        padding: 0 100vh;
+        margin-top: 5px;
+    }
+    .img-perf{
+        height: 200px;
+        width: 240px;
+        margin-right: 0px;
+        border: 2px solid rgb(247, 243, 26);
+        border-radius: 450px;
+        margin: 0px;
+    }
+    .nave li{
+        font-size: 30px;
+    }
+}

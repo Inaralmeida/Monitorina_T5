@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#containerPai{
+    width: 80%;
+
+    margin: 0 auto;
+    padding: 25px;
+
+    border: 1px solid;
+    background-color: tomato;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+.elementoFilho{
+    border: 1px solid;
+    background-color: violet;
+
+    width: 80%;
+
+    margin: 15px 0;
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    font-family: monospace;
+    font-weight: 800;
+
+    margin: 25px;
+
+}
+
+.containerNetos1{
+    border: 1px solid black;
+    background-color: yellowgreen;
+
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    width: 80%;
+}
+
+
+.containerNetos2{
+    border:1px solid black;
+    background-color: brown;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    height: 120px;
+    width: 80%;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.containerNetos3{
+    border:1px solid black;
+    background-color: cadetblue;
+    
+    width: 80%;
+    height: 100px;
+
+    display: flex;
+    flex-flow:  wrap-reverse row-reverse;
+    justify-content: space-around;
+    align-items: center;
+
+}
+li{
+    border:1px solid black;
+    border-radius: 5px;
+    
+    list-style: none;
+    
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+    width: 150px;
+    height: 30px;
+
+    background-color: teal;
+}

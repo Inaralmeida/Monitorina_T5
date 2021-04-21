@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="revisaoConteudos.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <h1>Pseudo clases</h1>
+      <section class="objs">
+        <a class="objeto" href="https://www.alura.com.br/"> alura </a>
+        <a class="objeto" href="https://www.alura.com.br/"> Youtube </a>
+        <a class="objeto" href="https://www.alura.com.br/"> Discord </a>
+        <a class="objeto" href="https://www.alura.com.br/"> Mapa mental </a>
+        <a class="objeto" href="https://www.youtube.com.br/"> Mapa mental </a>
+
+      </section>
+      <ul>
+        <p>LEGENDA</p>
+        <li>
+          Se nunca foi clicado fica <span class="azul">AZUL</span>
+          <em>(:link)</em>
+        </li>
+        <li>
+          Quando passa o mouse em cima fica <span class="rosa">ROSA</span>
+          <em>(:hover)</em>
+        </li>
+        <li>
+          Quando clica fica <span class="amarelo">AMARELO</span>
+          <em>(:active)</em>
+        </li>
+        <li>
+          Quando já foi visitado fica <span class="verde">VERDE</span
+          ><em>(:visited)</em>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Pseudo elementos</h2>
+
+      <button class="botao"> Proximo</button>
+      <ul>
+        <li class="primeiraLetra">
+          Deixa a primeira letra com uma estilização diferente:
+          <em>(::first-letter)</em>
+        </li>
+        <li class="primeiraLinha">
+          Deixa a primeira linha
+          <br />
+          com uma estilização diferente<em>(::first-line)</em>
+        </li>
+        <li class="itemAntes">
+          adiciona um elemento antes
+          <em>(::before)</em>
+        </li>
+        <li class="itemDepois">
+         
+          adiciona um elemento depois
+          <em>(::after)</em>
+        </li>
+
+        <li class="marcador">
+          <em>(::marker)</em>
+          adiciona marcadores as suas listas
+          <ul class="ulMarker">
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+          </ul>
+
+          <ol>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+          </ol>
+        </li>
+
+        <li class="selecionado">
+          <em>(::selction)</em>
+          Mostra uma estilização diferente quando otexto é selecionado
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>

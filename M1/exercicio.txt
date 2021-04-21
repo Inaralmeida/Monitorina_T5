@@ -1,0 +1,17 @@
+- Criar uma função que vai receber 4 notas 
+- calcular a media das notas
+
+
+Quadro de notas
+ 10: Campeão, vencedor
+ 8 - 9: Te dou parabens
+ 7: Dias de luta dias de glória
+ 5 - 6 : foi de raspão mais valeu
+ 0 - 4 : Tente outra vez
+
+ < 0 && > 10 - Notas incorretas
+
+
+
+ DICAS:
+ Math.floor

@@ -1,0 +1,92 @@
+.objs{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.objeto{
+    width: 20%;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgb(207, 202, 202);
+}
+
+.botao{
+    width: 150px;
+    height: 50px;
+    background-color: #555;
+    color: white;
+    border: none;
+}
+.botao::after{
+    content: '▶';
+    margin-left: 3px;
+
+}
+
+.botao:hover{
+    background-color: black;
+    color: #ffb200;
+}
+
+.botao:active{
+    background-color: red;
+    color: blue;
+}
+
+.objeto:link, .azul{
+    color: blue;
+   
+}
+.objeto:visited, .verde{
+    color: green;
+}
+.objeto:hover, .rosa {
+    color: black;   
+    background: tomato;
+}
+
+.objeto:active,.amarelo {
+    
+    color: #ffb200;
+    background: black;
+}
+
+
+.primeiraLetra::first-letter{
+    color: aqua;
+    background-color: black;
+    font-size: 25px;
+
+}
+
+.primeiraLinha::first-line{
+    color: #ffb200;
+    background-color: black;
+    font-family: monospace;
+}
+
+.itemAntes::before{
+   content: '☂';
+   background-color: black;
+   color: #ffb200;
+}
+
+
+.itemDepois::after{
+    content: '★';
+   background-color: red;
+}
+
+ ::marker{
+    color: blue;
+    font-size: 50px;
+}
+
+.selecionado::selection{
+    background-color: #ffb200;
+    color: 
+    black;
+}

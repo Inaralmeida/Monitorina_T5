@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#containerPai{
+    border: 1px solid black;
+    background-color: brown;
+    width: 80%;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.elementoFilho{
+    border: 1px solid black;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.containerNetos1{
+    background-color: chocolate;
+    width: 80%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.containerNetos2{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    box-sizing: border-box;
+
+}
+
+.containerNetos3{
+    background-color: darkcyan;
+    width: 90%;
+    height: 100px;
+
+    display: flex;
+    flex-flow: row-reverse wrap-reverse;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.containerNetos4{
+    background-color: darkgreen;
+    width: 90%;
+
+    display: flex;
+    flex-flow: column-reverse;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    width: 30%;
+    height: 30px;
+    border: 1px solid black;
+    background-color: cadetblue;
+    border-radius: 10px;
+    
+}

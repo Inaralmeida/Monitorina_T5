@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Métodos array</h1>
+
+    <h3>CONCAT</h3>
+    <p>Concatena 2 arrays</p>
+    <p>
+      Exemplo:<br />
+      var array1 = ['arroz', 'feijão', 'carne']<br />
+      var array2 = ['refrigerante', 'suco', 'cerveja']<br />
+      var concatenados = array1.concat(array2)<br />
+      resultado:['arroz', 'feijão', 'carne', 'refrigerante', 'suco', 'cerveja']
+    </p>
+    <hr />
+    <h3>PUSH</h3>
+    <p>serve para adicionarmos elementos no final do array</p>
+    <p>
+      Exemplo: var array1 = ['branco', 10, 20, 30];<br />
+      array1.push('novo elemento');<br />
+      console.log(array1);<br />
+      resultado: ['branco', 10, 20, 30, "novo elemento"]
+    </p>
+    <hr />
+    <h3>UNSHIFT</h3>
+    <p>
+      O “unshift()” faz o contrário do que o “push()” faz, ele adiciona um
+      elemento no início de um array.
+    </p>
+    <p>
+      Exemplo: var array1 = ['branco', 10, 20, 30, "novo elemento"]; <br />
+      array1.unshift('novo elemento'); <br />
+      console.log(array1); <br />
+      resultado: ["novo elemento", "branco", 10, 20, 30, "novo elemento"]
+    </p>
+    <hr />
+    <h3>POP</h3>
+    <p>O “pop()” remove o último elemento de um array:</p>
+    <p>
+      Exemplo: var array1 = ['branco', 10, 20, 30, "novo elemento"];<br />
+      array1.unshift('novo elemento');<br />
+      console.log(array1);<br />
+      resultado: ["novo elemento", "branco", 10, 20, 30, "novo elemento"]
+    </p>
+    <hr />
+    <h3>SHIFT</h3>
+    <p>O “shift()” é o contrário do “pop()”, ele remove o PRIMEIRO elemento do array.</p>
+    <p>
+      Exemplo: var array1 = ['branco', 10, 20, 30, "novo elemento"];<br />
+      array1.shift();;<br />
+      console.log(array1);<br />
+      resultado: [10, 20, 30, "novo elemento"]
+    </p>
+    <hr />
+    <h3>JOIN</h3>
+    <p>O “unshift()” faz o contrário do que o “push()” faz, ele adiciona um elemento no início de um array.</p>
+    <p>
+      Exemplo: var array1 = ['branco', 10, 20, 30, "novo elemento"];<br />
+      array1.unshift('novo elemento');<br />
+      console.log(array1);<br />
+      resultado: ["novo elemento", "branco", 10, 20, 30, "novo elemento"]
+    </p>
+    <hr />
+    <h3>SLICE</h3>
+    <p>O “slice()” extrai uma sessão de um array e retorna um novo array, veja:</p>
+    <p>
+      Exemplo: var array1 = ['branco', 10, 20, 30, "novo elemento"];<br />
+      var novoArray = array1.slice(1,3);<br />
+      console.log(array1);<br />
+      resultado: [10, 20]
+    </p>
+    <hr />
+    <h3>SPLICE</h3>
+    <p>No “splice()” podemos escolher um índice inicial e final para substituirmos valores entre eles</p>
+    <p>
+      Exemplo: var array1 = ['branco', 10, 20, 30, "novo elemento"];<br />
+      array1.reverse();<br />
+      console.log(array1);<br />
+      resultado: ["novo elemento", 30, 20, 10, "branco"]
+    </p>
+    <hr />
+    <h3>SPLIT</h3>
+    <h3>REVERSE</h3>
+    <p>O “join()” puxa elementos de um array e lista no formato de string</p>
+    <p>
+      Exemplo: var array1 = ['branco', 10, 20, 30];<br />
+      array1 = array1.join('-');<br />
+      console.log(array1);<br />
+      resultado: branco-10-20-30
+    </p>
+    <hr />
+    <script src="array.js"></script>
+  </body>
+</html>
