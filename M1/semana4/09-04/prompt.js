@@ -32,4 +32,3 @@ function apresentarPreço(){
     }
 }
 
-function 
