@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Como funciona?</title>
+</head>
+<body class="container">
+    <header >
+        <h1>O HTML DOM (Document Object Model)</h1>
+    </header>
+
+    <main>
+        <h3>
+            O dom é o seu documento inteiro, e com o dom podemos deixar nosso HTML dinâmico através do js
+        </h3>
+        <article>
+            <h2>Como Manipular o DOM?</h2>
+            <p>
+                Através dos Id's, Classes e Tag's dos elementos no HTML podemos criar variaveis no JS que referenciam o elemento no HTML.
+            </p>
+            
+            <h2>Métodos</h2>
+           <div>
+               <h3>Encontrando Elementos HTML</h3>
+               <ul>
+                   <li>
+                    <p><strong>Document.getElementById: </strong>
+                        A maneira mais comum de acessar um elemento HTML é usar o id do elemento.</p>
+                                      </li>
+                   <li>
+                    <p><strong>document.getElementsByTagName: </strong>Uma alternativa para acessar os elementos é a Tag do elemento.</p>
+                   
+                   </li>
+                   <li>
+                    <p><strong>document.getElementsByClassName: </strong> Tembém podemos acessar elemento através da classe dele.</p>
+                   </li>
+                   <li>
+                    <p><strong>Document.querySelector: </strong> De uma forma mais geral usamos o <strong>querySelector</strong> para selecionar o elemento igual ao css, se um um ID usamos #, se for classe usamos o ponto(.) e se for uma tag usamos a tag </p>
+                    
+                   </li>
+               </ul>
+
+               <p>
+                Exemplo:
+                No HTML você cria um Button e atribui a ele o id <strong>'#buttonStart'</strong>. Para adicionar um efeito a esse botão você pode criar uma variavel e usar essa variavel com os metédos do DOM no Js.
+                <span>Atribuindo o Id a uma variavel:
+                <strong> var btnStart = document.querySelector('#buttonStart')</strong></span>
+            </p>
+
+           </div>
+
+         
+
+        <div>
+            <h3>Alterando Elementos HTML</h3>
+            <ul>
+                <li>
+                 <p><strong>element.innerHTML = `novo conteudo HTML`: </strong> Alterar o HTML interno de um elemento.</p>
+                </li>
+                <li>
+                 <p><strong>element.attribute = novo valor:</strong> Altere o valor do atributo de um elemento HTML</p>
+                </li>
+                <li>
+                 <p><strong>element.style.property = `novo estilo`</strong>Alterar o estilo de um elemento HTML</p>
+                 <p></p>
+                </li>
+                
+            </ul>
+
+            <p>
+                <strong>
+                    Exemplo:
+                </strong>
+                Criamos uma div de atribuimos a ela uma classe chamada 'container'. usamos o querySelector e salvamos essa diva na variavel <em>container</em> container no js.
+                Para alterar o conteudo faremos da seguinte forma:
+                <strong>container.innerHTML = `adicionamos o novo conteudo`</strong>
+            </p>
+        </div>
+        </article>
+        <section>
+            <h2>REFERÊNCIAS</h2>
+
+            <div>
+            <a href="https://www.w3schools.com/js/js_htmldom.asp">DOM - O que é</a>
+            <a href="https://www.w3schools.com/js/js_htmldom_document.asp">DOM - Métodos</a>
+            </div>
+        </section>
+
+
+        <div id="containerDom" class="divExemplo">
+            <h1 id="titulo">Manipulando o DOM </h1>
+        </div>
+        <button id="btnAlterar">Altere o Conteudo</button>
+        <button id='clear'>Limpar</button>
+    </main>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
