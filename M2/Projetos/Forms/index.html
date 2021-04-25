@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form>
+      <section class="campo nome">
+        <label for="nome">Nome:</label>
+        <input required id="nome" type="text" />
+      </section>
+      <section class="campo email">
+        <label for="email">Email:</label>
+        <input required id="email" type="email" />
+      </section>
+      <section class="campo senhaInfo">
+        <label for="senha">Senha:</label>
+        <input required class="senha" id="senha" type="password" />
+        <label for="confirmacaoSenha">Confirmação:</label>
+        <input required class="senha" id="confirmacaoSenha" type="password" />
+      </section>
+      <section id="infosInvalidas">
+
+        <p id="nomeInvalido" class="invalido invisivel">nome invalido</p>
+
+        <p id="emailInvalido" class="invalido invisivel">Email invalido</p>
+      </section>
+      <section class="campo">
+        <button id="enviar">Cadastrar</button>
+      </section>
+    </form>
+    <script src="scriptaula.js"></script>
+  </body>
+</html>

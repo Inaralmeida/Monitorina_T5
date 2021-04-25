@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#8C00BF, #A800E6)
+}
+
+.container{
+    width: 350px;
+    height: 80vh;
+
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2F0040;
+}
+
+input{
+    width: 60%;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px 0 0px 5px;
+    font-size: 1.2rem;
+    padding-left: 5px;
+}
+
+.btnAdd{
+    width: 30%;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 0 5px 5px 0;
+}
+main{
+    width: 100%;
+    height: 100%;
+    background-color: #BD00FF;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    
+}
+ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.itemLista{
+    width: 95%;
+    min-height: 50px;
+    margin: 5px;
+    padding: 0 5px;
+    list-style: none;
+    border: 1px solid black;
+    background-color: rgb(231, 206, 206);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btnExcluir, .btnFeito{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+.btnFeito::after{
+    content: '✔';
+    font-size: 30px;
+    color: rgb(28, 83, 6);
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+.btnExcluir::after{
+    content: '⌧';
+    font-size: 25px;
+    color: rgb(77, 8, 8);
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+
+}
+
+.feito{
+    text-decoration: line-through;
+}
