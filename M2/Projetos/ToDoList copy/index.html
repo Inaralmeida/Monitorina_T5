@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ToDo list</title>
+  </head>
+  <body>
+    <section class="container">
+      <header>
+        <div class="inputs">
+          <input type="text" placeholder="Tarefa" id="input"/>
+          <input type="datetime-local" name="Data" id="data" class="data">
+        </div>
+        <button class="btnAdd" id="btnAdd">ADICIONAR</button>
+      </header>
+      <main>
+        <ul id="lista">
+          <li class="itemLista">
+            Tarefa 1
+            <div>
+              <button>riscar</button>
+              <button>Excluir</button>
+            </div>
+          </li>
+          
+        </ul>
+      </main>
+    </section>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
