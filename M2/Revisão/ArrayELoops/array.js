@@ -23,7 +23,7 @@ function recebe(numero){
         arrayPai.push(arrayFilho.sort())
 
     } 
-
+ 
     
     return arrayPai
 

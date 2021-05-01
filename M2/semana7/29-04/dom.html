@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <article>
+      <h1>APRENDA MAIS SOBRE DOM</h1>
+
+      <p>
+        Sabemos o quanto é dificil entender DOM e todos os seus métodos, então
+        preparamos um conteudo especial para você, preencha o formulario abaixo
+        e recebera o nosso E-book Entendendo o DOM em seu email.
+      </p>
+    </article>
+
+    <main>
+      <form action="">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" />
+        <label for="email">Email:</label>
+        <input type="email" id="email" />
+
+        <label for="whats">Receber novidades por whatsapp?</label>
+        <span>
+          <input  type="radio" id="whatsTrue" name="whats" value="true" />
+          <label for="sim">SIM</label>
+        </span>
+        <span>
+          <input  type="radio" id="whatsFalse" name="whats" value="false" />
+          <label for="nao">NÃO</label>
+        </span>
+
+        <input class="invisivel" type="tel" name="tel" id="tel" placeholder="(XX)XXXXX-XXXX" />
+        <input type="submit" value="Receber conteudo" id="btn" />
+      </form>
+
+      <section class="invisivel" id="section">
+        <h2>
+        Ola <p id='nomeR'></p>
+          Recebemos o seu cadastro, e já enviamos o nosso E-book Entendendo DOM
+          para o e-mail <p id="emailR"></p>
+        </h2>
+        <button id="btnOk" >Ok</button>
+      </section>
+    </main>
+
+    <script src="scriptAula.js"></script>
+  </body>
+</html>

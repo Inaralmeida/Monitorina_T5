@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alerando valor do input</title>
+</head>
+<body>
+    <section>
+        <h2>Entrada de dados</h2>
+        <form action="">
+            <label for="nome">nome</label><br>
+            <input type="text" id="nome"><br>
+            <label for="cpf">cpf</label><br>
+            <input type="text" id="cpf"><br>
+            <label for="tipoLogradrouro">tipo de logradrouro</label><br>
+            <select name="tipoLogradrouro" id="tipoLogradrouro">
+                <option value="rua">Rua</option>
+                <option value="Av">Av.</option>
+                <option value="Beco">Beco</option>
+            </select><br>
+            <label for="logradrouro">logradrouro</label><br>
+            <input type="text" id="logradrouro"><br>
+            <label for="numero">numero</label><br>
+            <input type="text" id="numero"><br>
+            <label for="cidade">cidade</label><br>
+            <input type="text" id="cidade"><br>
+            <label for="data">Data de nascimento</label><br>
+            <input type="date" name="data" id="data"><br><br>
+
+            
+           
+            <button id="enviar">Enviar</button>
+
+        </form>
+    </section>
+
+    <section>
+        <h2>Saida de dados</h2>
+        <p> A/o cliente <input type="text" id="nomeR" disabled> portador do CPF: <input type="text" id="cpfR" disabled>, que reside na  <input type="text" id="logradouroR" disabled>
+        nº <input type="text" id="numeroR" disabled> na cidade de <input type="text" id="cidadeR" disabled> 
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
