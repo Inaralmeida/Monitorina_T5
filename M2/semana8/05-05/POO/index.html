@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Quem será que vence?</h1>
+      <button id="verLutadores">Ver Lutadores</button>
+    </header>
+
+    <main>
+      <section class="lutadores  invisivel">
+        <div class="card">
+          <img class="fotoR" src="" alt="" />
+          <p>Nome: <span class="nomeR"></span></p>
+          <p>Id: <span class="idR"></span></p>
+          <p>Hp: <span class="hpR"></span></p>
+          <p>Ataque: <span class="ataqueR"></span></p>
+          <p>Defesa: <span class="defesaR"></span></p>
+        </div>
+
+        <div class="X">X</div>
+        <div class="card">
+            <img class="fotoL" src="" alt="" />
+            <p>
+              Nome: 
+              <span class="nomeL"></span>
+            </p>
+            <p>
+              Id: 
+              <span class="idL"></span>
+            </p>
+            <p>
+              Hp: 
+              <span class="hpL"></span>
+            </p>
+            <p>
+              Ataque: 
+              <span class="ataqueL"></span>
+            </p>
+            <p>
+              Defesa: 
+              <span class="defesaL"></span>
+            </p>
+          </div>
+      </section>
+      <section  class="invisivel" id="vencedor">
+          <div class="estilo-vencedor">
+            <h2 id='vencedor-nome' ></h2>
+            <img id="vencedor-foto" src="" alt="">
+          </div>
+          
+      </section>
+      <button class="invisivel" id='lutar'>Lutar</button>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
