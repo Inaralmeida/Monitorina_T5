@@ -48,14 +48,7 @@ class Pokemon {
 //variavel global que vai armazenar o objeto pokemon que é criado após a requisição
 let poke1, poke2;
 
-$("#verLutadores").click(function () {
-  //função que inicia o processo de requisição e armazenamento de pokemons
-  buscaPokemon();
-});
 
-$("#lutar").click(function(){
-  lutar()
-})
 function buscaPokemon() {
   //Guarda os pokemons
   const arrayPokemons = [];
