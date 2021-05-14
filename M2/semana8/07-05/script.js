@@ -121,7 +121,7 @@ function mostraNaTela(pokemon, lado) {
 //A function Lutar é aciodada quando o botão de luta for clicado
 function lutar() {
 
-  //instancia um pokemon com base na class Pokemon passando todos os parametros pedidos pela class, essas informações vem da variavel global que recebe o objeto pokemon criado com as informações que vem da requisição
+  //instancia um pokemon com base na class Pokemon passando todos os parametros pedidos pela cLutarlass, essas informações vem da variavel global que recebe o objeto pokemon criado com as informações que vem da requisição
   const lutador1 = new Pokemon(
     poke1.nome,
     poke1.id,
