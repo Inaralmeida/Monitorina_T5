@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="../img/github.svg" alt="" />
+        GITHUB
+      </div>
+      <form action="">
+        <input
+          type="text"
+          name=""
+          id="username"
+          placeholder="Nome de usuario"
+        />
+        <button id="btn-submit">Ver Perfil</button>
+      </form>
+    </header>
+
+    <main>
+      <section class="perfil">
+        <img id="img-perfil" src="../img/logo_sem_fundo.png" alt="" />
+        <p id="name" class="name">Nome</p>
+        <p id="usernameTela" class="usernameTela">Username</p>
+      </section>
+
+      <section class="repositorios">
+        <header class="cabecalho-repositorios">
+          <img
+            src="https://image.flaticon.com/icons/png/512/33/33277.png"
+            alt=""
+          />
+          <p>Repositórios</p>
+        </header>
+
+        <main id="lista-repositorios" class="lista-repositorios">
+          <div class="item-repositorio">
+            <a class="nome-repositorio" href="#">Nome do repositorio</a>
+            <p class="descricao">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Corrupti, asperiores.
+            </p>
+          </div>
+        </main>
+      </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../Javascript/view.js"></script>
+    <script src="../Javascript/model.js"></script>
+    <script src="../Javascript/controller.js"></script>
+    <script src="../Javascript/index.js"></script>
+  </body>
+</html>
